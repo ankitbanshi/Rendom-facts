@@ -1,17 +1,75 @@
-# Rendom-facts
-Showcasing rendom fect
->>>>>>> e89ee7ef83770b6240259073ca5a5aea1e14242f
+Rendom-facts
+A simple and modern web app that fetches and displays random facts using React, Vite, and Tailwind CSS.
 
-# React + Vite
+✨ Features
+Get Random Facts: Fetches a random fact from catfact.ninja.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+History Tracking: Keeps a history of all the facts you've generated.
 
-Currently, two official plugins are available:
+Modern UI: Clean, responsive design using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Navigation: Switch easily between Dashboard and History views.
 
-## Expanding the ESLint configuration
+Fast Development: Built with Vite for lightning-fast HMR and development experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+🛠️ Getting Started
+Prerequisites
+Node.js (v16 or later recommended)
+
+npm or yarn
+
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/ankitbanshi/Rendom-facts.git
+cd Rendom-facts
+Install dependencies:
+
+bash
+npm install
+# or
+yarn install
+Start the development server:
+
+bash
+npm run dev
+# or
+yarn dev
+Open your browser and visit:
+
+text
+http://localhost:5173
+(or the port specified in your terminal)
+
+📝 Project Structure
+text
+src/
+  ├── App.jsx
+  ├── Dashboard.jsx
+  ├── History.jsx
+  ├── main.jsx
+  └── index.css
+App.jsx: Main app layout and routing.
+
+Dashboard.jsx: Fetches and displays random facts.
+
+History.jsx: Shows the list of previously fetched facts.
+
+📦 Built With
+React
+
+Vite
+
+Tailwind CSS
+
+React Router
+
+🙏 Acknowledgements
+Facts API: catfact.ninja
+
+Inspired by the simplicity of modern web apps.
+
+📄 License
+This project is open source and available under the MIT License.
