@@ -14,12 +14,7 @@ A modern, responsive web app built with React, Vite, and Tailwind CSS that fetch
 
 ---
 
-## 🚀 Live Demo
 
-[Click here to try the app!](#)  
-<!-- Replace # with your deployed demo URL (e.g., https://rendom-facts.vercel.app) -->
-
----
 
 ## 🛠️ Getting Started
 
